@@ -1,0 +1,478 @@
+<html>
+  <head>
+    <title>E-Comm Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="common.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo arrange-left wid-25">
+          <h1><span>E</span> <span>Comm</span></h1>
+        </div>
+        <div class="search-product arrange-left wid-50">
+          <input type="text" placeholder="search for products" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="selected-product arrange-left wid-25">
+          <button class="common-btn">
+            <span>
+              <i class="fa-solid fa-cart-shopping"></i>
+              0
+            </span>
+          </button>
+          <button class="common-btn">
+            <span>
+              <i class="fa-solid fa-heart"></i>
+              0
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="full-banner-wrapper">
+      <div class="shop-header">
+        <h1>Women Dress Collection</h1>
+        <h3>-Our Shop-</h3>
+      </div>
+
+      <div class="wrapper next-row">
+        <div class="sort-option">
+          <select name="" id="">
+            <option value="1">By Name</option>
+            <option value="1">By Rating</option>
+            <option value="1">By Latest</option>
+          </select>
+        </div>
+        <div class="wid-25 arrange-left">
+          <h3>Filter By Price</h3>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="price-all">
+            <label class="custom-control-label" for="price-all">All Price</label>
+            <span class="filter-prod-count">1000</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="0-100">
+            <label class="custom-control-label" for="0-100">$0 - 100$</label>
+            <span class="filter-prod-count">100</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="100-200">
+            <label class="custom-control-label" for="100-200">$100 - 200$</label>
+            <span class="filter-prod-count">50</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="200-300">
+            <label class="custom-control-label" for="200-300">$200 - 300$</label>
+            <span class="filter-prod-count">70</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="300-400">
+            <label class="custom-control-label" for="300-400">$300 - 400$</label>
+            <span class="filter-prod-count">20</span>
+          </div>
+          <h3>Filter By Color</h3>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="color-all">
+            <label class="custom-control-label" for="color-all">All Color</label>
+            <span class="filter-prod-count">650</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="black">
+            <label class="custom-control-label" for="black">Black</label>
+            <span class="filter-prod-count">150</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="blue">
+            <label class="custom-control-label" for="blue">Blue</label>
+            <span class="filter-prod-count">34</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="white">
+            <label class="custom-control-label" for="white">White</label>
+            <span class="filter-prod-count">60</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="Green">
+            <label class="custom-control-label" for="Green">Green</label>
+            <span class="filter-prod-count">30</span>
+          </div>
+          <h3>Filter By Size</h3>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="Size">
+            <label class="custom-control-label" for="Size">All Size</label>
+            <span class="filter-prod-count">585</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="small">
+            <label class="custom-control-label" for="small">Small</label>
+            <span class="filter-prod-count">245</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="Medium">
+            <label class="custom-control-label" for="Medium">Medium</label>
+            <span class="filter-prod-count">534</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="Large">
+            <label class="custom-control-label" for="Large">Large</label>
+            <span class="filter-prod-count">724</span>
+          </div>
+          <div class="custom-control-check">
+            <input type="checkbox" class="custom-control-input" checked="" id="extra-large">
+            <label class="custom-control-label" for="extra-large">Extra-Large</label>
+            <span class="filter-prod-count">65s</span>
+          </div>
+        </div>
+        <div class="wid-75 arrange-left">
+          <div class="wid-33 arrange-left">
+            <div class="cart">
+              <div>
+                <img src="./product-1.jpg" alt="Product1" />
+              </div>
+              <div class="cart-details">
+                <h6 class="name-head">Colourful Stylish Shirt</h6>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$130.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  view Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-33 arrange-left">
+            <div class="cart">
+              <div>
+                <img src="./product-1.jpg" alt="Product1" />
+              </div>
+              <div class="cart-details">
+                <h6 class="name-head">Colourful Stylish Shirt</h6>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$130.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  view Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-33 arrange-left">
+            <div class="cart">
+              <div>
+                <img src="./product-1.jpg" alt="Product1" />
+              </div>
+              <div class="cart-details">
+                <h6 class="name-head">Colourful Stylish Shirt</h6>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$130.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  view Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-33 arrange-left">
+            <div class="cart">
+              <div>
+                <img src="./product-1.jpg" alt="Product1" />
+              </div>
+              <div class="cart-details">
+                <h6 class="name-head">Colourful Stylish Shirt</h6>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$130.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  view Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-33 arrange-left">
+            <div class="cart">
+              <div>
+                <img src="./product-1.jpg" alt="Product1" />
+              </div>
+              <div class="cart-details">
+                <h6 class="name-head">Colourful Stylish Shirt</h6>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$130.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  view Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-33 arrange-left">
+            <div class="cart">
+              <div>
+                <img src="./product-1.jpg" alt="Product1" />
+              </div>
+              <div class="cart-details">
+                <h6 class="name-head">Colourful Stylish Shirt</h6>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$130.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  view Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-33 arrange-left">
+            <div class="cart">
+              <div>
+                <img src="./product-1.jpg" alt="Product1" />
+              </div>
+              <div class="cart-details">
+                <h6 class="name-head">Colourful Stylish Shirt</h6>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$130.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  view Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-33 arrange-left">
+            <div class="cart">
+              <div>
+                <img src="./product-1.jpg" alt="Product1" />
+              </div>
+              <div class="cart-details">
+                <h6 class="name-head">Colourful Stylish Shirt</h6>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$130.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  view Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wid-33 arrange-left">
+            <div class="cart">
+              <div>
+                <img src="./product-1.jpg" alt="Product1" />
+              </div>
+              <div class="cart-details">
+                <h6 class="name-head">Colourful Stylish Shirt</h6>
+                <div class="cart-price">
+                  <h6 class="current">$123.00</h6>
+                  <h6 class="last">$130.00</h6>
+                </div>
+              </div>
+              <div class="cart-footer">
+                <a href="#">
+                  <i class="fa-solid fa-eye"></i>
+                  view Details
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  Add to Cart
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper next-row">
+        <div class="footer">
+          <div class="wid-25 arrange-left margin-right-5">
+            <div class="logo">
+              <h1><span>E</span> <span>Comm</span></h1>
+            </div>
+            <p class="footer-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus enim rerum maxime corrupti facilis fugiat commodi nam
+              veniam aliquam aliquid.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <i class="fa fa-map-marker-alt icon"> </i>123 Street Karachi
+                Pakistan
+              </li>
+              <li>
+                <i class="fa fa-envelope icon"> </i> ebbadsiddique@gmail.com
+              </li>
+              <li><i class="fa fa-phone icon"> </i> 922242402422</li>
+            </ul>
+          </div>
+          <div class="wid-25 quick-links arrange-left">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>Home</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>Our Shops</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i>
+                  <span>Shop Details</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>Checkout</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>About Us</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>Cart</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="wid-25 quick-links arrange-left">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>Home</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>Our Shops</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i>
+                  <span>Shop Details</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>Checkout</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>About Us</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-right"></i> <span>Cart</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="wid-25 arrange-left">
+            <h3>News Letter</h3>
+            <input
+              type="text"
+              class="footer-input"
+              placeholder="Enter your Name"
+            />
+            <input
+              type="text"
+              class="footer-input"
+              placeholder="Enter your Email"
+            />
+            <button class="footer-button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <div>All Rights Reserved. Designed by <b> Ebbad Siddique </b>.</div>
+        <img src="./payments.png" alt="Payment" />
+      </div>
+    </div>
+  </body>
+</html>
